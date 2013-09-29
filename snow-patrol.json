@@ -1,0 +1,61 @@
+{
+    "bandName" : "Snow Patrol",
+    "yearStarted" : 1994, 
+    "bandMembers" : [
+        {
+            "id" : "garyL",
+            "name" : "Gary Lightbody",
+            "role" : "lead vocals, rhythm guitar",
+            "yearJoined" : 1994,
+            "yearLeft" : null
+        },
+        {
+            "id" : "markM",
+            "name" : "Mark McClelland",
+            "role" : "bass guitar, backing vocals",
+            "yearJoined" : 1994,
+            "yearLeft" : 2005
+        },
+        {
+            "id" : "michaelM",
+            "name" : "Michael Morrison",
+            "yearJoined" : 1994,
+            "yearLeft" : 1996
+        },
+        {
+            "id" : "jonnyQ",
+            "name" : "Jonny Quinn",
+            "role" : "drums, percussion",
+            "yearJoined" : 1997,
+            "yearLeft" : null
+        },
+        {
+            "id" : "nathanC",
+            "name" : "Nathan Connolly",
+            "role" : "lead guitar, backing vocals",
+            "yearJoined" : 2002,
+            "yearLeft" : null
+        },
+        {
+            "id" : "paulW",
+            "name" : "Paul Wilson",
+            "role" : "bass guitar, backing vocals",
+            "yearJoined" : 2005,
+            "yearLeft" : null
+        },
+        {
+            "id" : "tomS",
+            "name" : "Tom Simpson",
+            "role" : "keyboards, samples",
+            "yearJoined" : 2005,
+            "yearLeft" : 2013
+        },
+        {
+            "id" : "johnnyM",
+            "name" : "Johnny McDaid",
+            "role" : "piano, guitar, backing vocals",
+            "yearJoined" : 2013,
+            "yearLeft" : null
+        }
+    ]
+}

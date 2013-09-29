@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    font: inherit;
+    vertical-align: baseline;
+}
+strong {
+    font-weight: bold;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* --- General style --- */
+
+@font-face {
+  font-family: "Fira Sans Light";
+  src: url("Fira Sans/FiraSansOT-Light.otf");
+}
+@font-face {
+  font-family: "Fira Sans Light Italic";
+  src: url("Fira Sans/FiraSansOT-LightItalic.otf");
+}
+
+body {
+    font: 400 1em/1.15 "Fira Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fefefe url("grain.png") repeat;
+    padding: 0 10px;
+}
+h1 {
+    padding-top: 1.25%;
+    padding-bottom: 1.5%;
+    font: 400 1.5em/1 "Patua One", Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    color: #333;
+}
+p {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.description {
+    clear: both;
+    margin: 35px 0;
+}
+
+.band-name {
+    background-color: #203e74;
+    color: transparent;
+    text-shadow: 0px 2px 5px rgba(255,255,255,0.6);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+/* --- Timeline Style --- */
+
+.timeline {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.years {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+.years li {
+    font-size: 0.85em;
+    border-right: 1px solid #fff;
+    background: #f3f3f3;
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+.years.top li {
+    border-bottom: 1px solid #000;
+}
+.years.bottom li {
+    border-top: 1px solid #000;
+}
+
+.years .start {
+    border-left: 1px solid #fff;
+}
+.years .present {
+    border-right: none;
+}
+
+.band-members {
+    clear: both;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    margin-left: -1px;
+    height: 330px;
+}
+
+.band-members li {
+    color: #f3f3f3;
+    text-shadow: 0px 2px 3px #565656;
+    border: 2px solid #ddd;
+    position: relative;
+    left: -2px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    -moz-box-shadow: 2px 2px 3px #696969;
+    -webkit-box-shadow: 2px 2px 3px #696969;
+    box-shadow: 2px 2px 3px #696969;
+    margin-bottom: 5px;
+    padding: 3px 0;
+    text-align: center;
+    display: block;
+}
+
+.band-members em {
+    font-family: "Fira Sans Light Italic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 0;
+    display: inline-block;
+}
+
+/* width (for each) = 88% (max width) - left value */
+/* left (for each) = 5.5% * years after start (and + 1.375% per quarter of year) */
+#garyL {
+    background: #f2374d;
+}
+
+#markM {
+    background: #fcbf17;
+}
+
+#michaelM {
+    background: #6c9bde;
+}
+
+#jonnyQ {
+    background: #6c9bde;
+}
+
+#nathanC {
+    background: #73b84d;
+}
+
+#paulW {
+    background: #fcbf17;
+}
+
+#tomS {
+    background: #7ba6ad;
+}
+
+#johnnyM {
+    background: #9c79bd;
+}
