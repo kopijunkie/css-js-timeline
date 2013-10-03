@@ -4,7 +4,7 @@ css-js-timeline
 Timeline chart made with CSS and JavaScript
 
 <p>
-    An update/refresh of a timeline chart I made back in 2010 using just HTML and CSS to lay it out as part of one of my assignments for my Web Technologies module at the University of Bristol (the original is viewable <a href="http://kopijunkie.net/demo-site/spotlight.html" title="Demo Site - Pure CSS Timeline" target="_blank">here</a>). Mach 2, if you'd like. After 2+ years working as a Front End Web Developer, I decided it's time to see how it can be improved on now that I have more experience working with CSS, HTML and especially JavaScript under my belt.
+    A 2013 update/refresh of a timeline chart I made back in 2010 using just HTML and CSS to lay it out as part of one of my assignments for my Web Technologies module at the University of Bristol (the original is viewable <a href="http://kopijunkie.net/demo-site/spotlight.html" title="Demo Site - Pure CSS Timeline" target="_blank">here</a>). Mach 2, if you'd like. I decided it's time to see how it can be improved on now that I have more experience working with CSS, HTML and especially JavaScript under my belt.
 </p>
 <p>
     One key difference is that I have now put all the band data into a JSON file that is parsed using JavaScript (I'd do it in vanilla JS, but some things are just much easier and less verbose code wise with jQuery, e.g. selecting an element by ID). When I first did this, the data was all held in the HTML itself. 
@@ -16,5 +16,5 @@ Timeline chart made with CSS and JavaScript
     When I first made this, I wasn't very familiar with JavaScript or JSON yet plus one of the assignment requirements was that the web site I was building had to use valid HTML and CSS, no JavaScript. And as HTML5 and CSS3 were still new then, those weren't allowed either. Restricting perhaps, but I loved the challenge. 
 </p>
 <p>
-    My aim here is to show what can be achieved with current front end web technologies, which these days is quite a lot. I'm just scratching the surface, of course. :)
+    My aim here is to show what can be achieved with the basic front end web technologies available currently given that these days you can do quite a lot with modern front end web technologies. I'm just scratching the surface, of course. :)
 </p>
