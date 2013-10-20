@@ -76,9 +76,16 @@ table {
     border-spacing: 0;
 }
 
+::selection {
+    background: #ffb50d;
+}
+::-moz-selection {
+    background: #ffb50d;
+}
+
 .description {
     clear: both;
-    margin: 35px 0;
+    margin: 45px 0;
 }
 
 .band-name {
@@ -91,11 +98,6 @@ table {
 }
 
 /* --- Timeline Style --- */
-
-.timeline {
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
 
 .years {
     list-style-type: none;
@@ -150,7 +152,6 @@ table {
     margin-bottom: 5px;
     padding: 3px 0;
     text-align: center;
-    display: block;
 }
 
 .band-members em {
@@ -159,36 +160,56 @@ table {
     display: inline-block;
 }
 
-/* width (for each) = 88% (max width) - left value */
-/* left (for each) = 5.5% * years after start (and + 1.375% per quarter of year) */
 #garyL {
     background: #f2374d;
+    background: -webkit-linear-gradient(top, #cf061d, #f2374d);
+    background:    -moz-linear-gradient(top, #cf061d, #f2374d);
+    background:     -ms-linear-gradient(top, #cf061d, #f2374d);
+    background:      -o-linear-gradient(top, #cf061d, #f2374d);
+    background:         linear-gradient(to bottom, #cf061d, #f2374d);
 }
 
-#markM {
+#markM, #paulW {
     background: #fcbf17;
+    background: -webkit-linear-gradient(top, #fcbf17, #fdd66a);
+    background:    -moz-linear-gradient(top, #fcbf17, #fdd66a);
+    background:     -ms-linear-gradient(top, #fcbf17, #fdd66a);
+    background:      -o-linear-gradient(top, #fcbf17, #fdd66a);
+    background:         linear-gradient(to bottom, #fcbf17, #fdd66a);
 }
 
-#michaelM {
+#michaelM, #jonnyQ {
     background: #6c9bde;
-}
-
-#jonnyQ {
-    background: #6c9bde;
+    background: -webkit-linear-gradient(top, #2779eb, #6c9bde);
+    background:    -moz-linear-gradient(top, #2779eb, #6c9bde);
+    background:     -ms-linear-gradient(top, #2779eb, #6c9bde);
+    background:      -o-linear-gradient(top, #2779eb, #6c9bde);
+    background:         linear-gradient(to bottom, #2779eb, #6c9bde);
 }
 
 #nathanC {
     background: #73b84d;
-}
-
-#paulW {
-    background: #fcbf17;
+    background: -webkit-linear-gradient(top, #24a624, #73b84d);
+    background:    -moz-linear-gradient(top, #24a624, #73b84d);
+    background:     -ms-linear-gradient(top, #24a624, #73b84d);
+    background:      -o-linear-gradient(top, #24a624, #73b84d);
+    background:         linear-gradient(to bottom, #24a624, #73b84d);
 }
 
 #tomS {
     background: #7ba6ad;
+    background: -webkit-linear-gradient(top, #4a95ab, #7ba6ad);
+    background:    -moz-linear-gradient(top, #4a95ab, #7ba6ad);
+    background:     -ms-linear-gradient(top, #4a95ab, #7ba6ad);
+    background:      -o-linear-gradient(top, #4a95ab, #7ba6ad);
+    background:         linear-gradient(to bottom, #4a95ab, #7ba6ad);
 }
 
 #johnnyM {
     background: #9c79bd;
+    background: -webkit-linear-gradient(top, #8952bd, #9c79bd);
+    background:    -moz-linear-gradient(top, #8952bd, #9c79bd);
+    background:     -ms-linear-gradient(top, #8952bd, #9c79bd);
+    background:      -o-linear-gradient(top, #8952bd, #9c79bd);
+    background:         linear-gradient(to bottom, #8952bd, #9c79bd);
 }
