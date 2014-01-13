@@ -1,7 +1,8 @@
 css-js-timeline
 ===============
 
-Timeline chart made with CSS and JavaScript
+<h2>Timeline chart made with CSS and JavaScript</h2> 
+<p>Working demo <a href="http://kopijunkie.net/lab/sp-timeline/"title="CSS and JavaScript Timeline Chart" target="_blank">viewable here</a>.</p>
 
 <p>
     A 2013 update/refresh of a timeline chart I made back in 2010 using just HTML and CSS to lay it out as part of one of my assignments for my Web Technologies module at the University of Bristol (the original is viewable <a href="http://kopijunkie.net/demo-site/spotlight.html" title="Demo Site - Pure CSS Timeline" target="_blank">here</a>). Mach 2, if you'd like. I decided it's time to see how it can be improved on now that I have more experience working with CSS, HTML and especially JavaScript under my belt.
